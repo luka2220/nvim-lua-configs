@@ -1,0 +1,10 @@
+-- importing lua files within the core folder
+require("plugins")
+require("luka.core.options")
+require("luka.core.colorscheme")
+require("luka.core.keymaps")
+require("luka.plugins.lualine")
+require("luka.plugins.lspconfig")
+require("luka.plugins.lspkind")
+require("luka.plugins.cmp")
+require("luka.plugins.treesitter")
